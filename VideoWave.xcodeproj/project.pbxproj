@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671487C929BE508800B89CAF /* ReduxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487C829BE508800B89CAF /* ReduxViewModel.swift */; };
+		671487CF29BE508F00B89CAF /* Epic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487CA29BE508F00B89CAF /* Epic.swift */; };
+		671487D029BE508F00B89CAF /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487CB29BE508F00B89CAF /* Store.swift */; };
+		671487D129BE508F00B89CAF /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487CC29BE508F00B89CAF /* Reducer.swift */; };
+		671487D229BE508F00B89CAF /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487CD29BE508F00B89CAF /* Middleware.swift */; };
+		671487D329BE508F00B89CAF /* EpicMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487CE29BE508F00B89CAF /* EpicMiddleware.swift */; };
+		671487D529BE511D00B89CAF /* VideoWaveReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487D429BE511D00B89CAF /* VideoWaveReducer.swift */; };
+		671487D729BE54B900B89CAF /* VideoWaveFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487D629BE54B900B89CAF /* VideoWaveFeedView.swift */; };
+		671487D929BE55F000B89CAF /* VideoWaveUDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487D829BE55F000B89CAF /* VideoWaveUDFViewController.swift */; };
+		671487DB29BE6C1900B89CAF /* VideoWavePlayerEpic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487DA29BE6C1900B89CAF /* VideoWavePlayerEpic.swift */; };
+		671487DD29BE6C3A00B89CAF /* VideoWavePreloadEpic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671487DC29BE6C3A00B89CAF /* VideoWavePreloadEpic.swift */; };
 		677170BA299BB43300C18CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170B9299BB43300C18CC9 /* AppDelegate.swift */; };
-		677170BC299BB43300C18CC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170BB299BB43300C18CC9 /* SceneDelegate.swift */; };
-		677170BE299BB43300C18CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170BD299BB43300C18CC9 /* ViewController.swift */; };
-		677170C1299BB43300C18CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677170BF299BB43300C18CC9 /* Main.storyboard */; };
+		677170BE299BB43300C18CC9 /* VideoWaveMVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170BD299BB43300C18CC9 /* VideoWaveMVPViewController.swift */; };
 		677170C3299BB43500C18CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677170C2299BB43500C18CC9 /* Assets.xcassets */; };
 		677170C6299BB43500C18CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677170C4299BB43500C18CC9 /* LaunchScreen.storyboard */; };
+		677170CE299BB78800C18CC9 /* VideoWavePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170CD299BB78800C18CC9 /* VideoWavePresenter.swift */; };
+		677170D8299BBA4C00C18CC9 /* VideoWaveLoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170D7299BBA4C00C18CC9 /* VideoWaveLoadingCell.swift */; };
+		677170DA299BBA5700C18CC9 /* VideoWavePlayingVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170D9299BBA5700C18CC9 /* VideoWavePlayingVideoCell.swift */; };
+		677170DC299BBA6100C18CC9 /* VideoWaveVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170DB299BBA6100C18CC9 /* VideoWaveVideoCell.swift */; };
+		677170DF299D1CDF00C18CC9 /* UITableView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170DE299D1CDF00C18CC9 /* UITableView+Utils.swift */; };
+		677170E1299D1CF600C18CC9 /* Collection+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170E0299D1CF600C18CC9 /* Collection+Utils.swift */; };
+		677170E5299D366400C18CC9 /* WeakSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170E4299D366400C18CC9 /* WeakSequence.swift */; };
+		677170E7299D36D800C18CC9 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170E6299D36D800C18CC9 /* Weak.swift */; };
+		677170E9299D372000C18CC9 /* Locking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170E8299D372000C18CC9 /* Locking.swift */; };
+		677170EB299D382200C18CC9 /* VideoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170EA299D382200C18CC9 /* VideoRepository.swift */; };
+		677170ED299D403D00C18CC9 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677170EC299D403D00C18CC9 /* VideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		671487C829BE508800B89CAF /* ReduxViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxViewModel.swift; sourceTree = "<group>"; };
+		671487CA29BE508F00B89CAF /* Epic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Epic.swift; sourceTree = "<group>"; };
+		671487CB29BE508F00B89CAF /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		671487CC29BE508F00B89CAF /* Reducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		671487CD29BE508F00B89CAF /* Middleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
+		671487CE29BE508F00B89CAF /* EpicMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpicMiddleware.swift; sourceTree = "<group>"; };
+		671487D429BE511D00B89CAF /* VideoWaveReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWaveReducer.swift; sourceTree = "<group>"; };
+		671487D629BE54B900B89CAF /* VideoWaveFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWaveFeedView.swift; sourceTree = "<group>"; };
+		671487D829BE55F000B89CAF /* VideoWaveUDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWaveUDFViewController.swift; sourceTree = "<group>"; };
+		671487DA29BE6C1900B89CAF /* VideoWavePlayerEpic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWavePlayerEpic.swift; sourceTree = "<group>"; };
+		671487DC29BE6C3A00B89CAF /* VideoWavePreloadEpic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWavePreloadEpic.swift; sourceTree = "<group>"; };
 		677170B6299BB43300C18CC9 /* VideoWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		677170B9299BB43300C18CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		677170BB299BB43300C18CC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		677170BD299BB43300C18CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		677170C0299BB43300C18CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		677170BD299BB43300C18CC9 /* VideoWaveMVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWaveMVPViewController.swift; sourceTree = "<group>"; };
 		677170C2299BB43500C18CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		677170C5299BB43500C18CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		677170C7299BB43500C18CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677170CD299BB78800C18CC9 /* VideoWavePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWavePresenter.swift; sourceTree = "<group>"; };
+		677170D7299BBA4C00C18CC9 /* VideoWaveLoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWaveLoadingCell.swift; sourceTree = "<group>"; };
+		677170D9299BBA5700C18CC9 /* VideoWavePlayingVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWavePlayingVideoCell.swift; sourceTree = "<group>"; };
+		677170DB299BBA6100C18CC9 /* VideoWaveVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWaveVideoCell.swift; sourceTree = "<group>"; };
+		677170DE299D1CDF00C18CC9 /* UITableView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Utils.swift"; sourceTree = "<group>"; };
+		677170E0299D1CF600C18CC9 /* Collection+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Utils.swift"; sourceTree = "<group>"; };
+		677170E4299D366400C18CC9 /* WeakSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSequence.swift; sourceTree = "<group>"; };
+		677170E6299D36D800C18CC9 /* Weak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
+		677170E8299D372000C18CC9 /* Locking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locking.swift; sourceTree = "<group>"; };
+		677170EA299D382200C18CC9 /* VideoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRepository.swift; sourceTree = "<group>"; };
+		677170EC299D403D00C18CC9 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +77,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		671487C229BE4FAC00B89CAF /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				677170BD299BB43300C18CC9 /* VideoWaveMVPViewController.swift */,
+				677170CD299BB78800C18CC9 /* VideoWavePresenter.swift */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		671487C329BE4FC000B89CAF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				677170EC299D403D00C18CC9 /* VideoPlayer.swift */,
+				677170EA299D382200C18CC9 /* VideoRepository.swift */,
+				671487D629BE54B900B89CAF /* VideoWaveFeedView.swift */,
+				677170D6299BBA2A00C18CC9 /* Cells */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		671487C429BE4FD600B89CAF /* UDF */ = {
+			isa = PBXGroup;
+			children = (
+				671487D829BE55F000B89CAF /* VideoWaveUDFViewController.swift */,
+				671487D429BE511D00B89CAF /* VideoWaveReducer.swift */,
+				671487DA29BE6C1900B89CAF /* VideoWavePlayerEpic.swift */,
+				671487DC29BE6C3A00B89CAF /* VideoWavePreloadEpic.swift */,
+			);
+			path = UDF;
+			sourceTree = "<group>";
+		};
+		671487C529BE502100B89CAF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				671487C729BE506C00B89CAF /* ReduxUI */,
+				671487C629BE504800B89CAF /* Redux */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		671487C629BE504800B89CAF /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				671487CA29BE508F00B89CAF /* Epic.swift */,
+				671487CE29BE508F00B89CAF /* EpicMiddleware.swift */,
+				671487CD29BE508F00B89CAF /* Middleware.swift */,
+				671487CC29BE508F00B89CAF /* Reducer.swift */,
+				671487CB29BE508F00B89CAF /* Store.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		671487C729BE506C00B89CAF /* ReduxUI */ = {
+			isa = PBXGroup;
+			children = (
+				671487C829BE508800B89CAF /* ReduxViewModel.swift */,
+			);
+			path = ReduxUI;
+			sourceTree = "<group>";
+		};
 		677170AD299BB43300C18CC9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +156,47 @@
 		677170B8299BB43300C18CC9 /* VideoWave */ = {
 			isa = PBXGroup;
 			children = (
+				671487C529BE502100B89CAF /* Core */,
+				677170DD299D1CCD00C18CC9 /* Utils */,
+				677170D5299BBA1700C18CC9 /* VideoWave */,
 				677170B9299BB43300C18CC9 /* AppDelegate.swift */,
-				677170BB299BB43300C18CC9 /* SceneDelegate.swift */,
-				677170BD299BB43300C18CC9 /* ViewController.swift */,
-				677170BF299BB43300C18CC9 /* Main.storyboard */,
 				677170C2299BB43500C18CC9 /* Assets.xcassets */,
 				677170C4299BB43500C18CC9 /* LaunchScreen.storyboard */,
 				677170C7299BB43500C18CC9 /* Info.plist */,
 			);
 			path = VideoWave;
+			sourceTree = "<group>";
+		};
+		677170D5299BBA1700C18CC9 /* VideoWave */ = {
+			isa = PBXGroup;
+			children = (
+				671487C229BE4FAC00B89CAF /* MVP */,
+				671487C429BE4FD600B89CAF /* UDF */,
+				671487C329BE4FC000B89CAF /* Core */,
+			);
+			path = VideoWave;
+			sourceTree = "<group>";
+		};
+		677170D6299BBA2A00C18CC9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				677170D7299BBA4C00C18CC9 /* VideoWaveLoadingCell.swift */,
+				677170D9299BBA5700C18CC9 /* VideoWavePlayingVideoCell.swift */,
+				677170DB299BBA6100C18CC9 /* VideoWaveVideoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		677170DD299D1CCD00C18CC9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				677170DE299D1CDF00C18CC9 /* UITableView+Utils.swift */,
+				677170E0299D1CF600C18CC9 /* Collection+Utils.swift */,
+				677170E4299D366400C18CC9 /* WeakSequence.swift */,
+				677170E6299D36D800C18CC9 /* Weak.swift */,
+				677170E8299D372000C18CC9 /* Locking.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +259,6 @@
 			files = (
 				677170C6299BB43500C18CC9 /* LaunchScreen.storyboard in Resources */,
 				677170C3299BB43500C18CC9 /* Assets.xcassets in Resources */,
-				677170C1299BB43300C18CC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +269,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				677170BE299BB43300C18CC9 /* ViewController.swift in Sources */,
+				671487D229BE508F00B89CAF /* Middleware.swift in Sources */,
+				677170ED299D403D00C18CC9 /* VideoPlayer.swift in Sources */,
+				677170BE299BB43300C18CC9 /* VideoWaveMVPViewController.swift in Sources */,
+				671487D729BE54B900B89CAF /* VideoWaveFeedView.swift in Sources */,
+				677170CE299BB78800C18CC9 /* VideoWavePresenter.swift in Sources */,
+				671487C929BE508800B89CAF /* ReduxViewModel.swift in Sources */,
+				677170DA299BBA5700C18CC9 /* VideoWavePlayingVideoCell.swift in Sources */,
+				677170DC299BBA6100C18CC9 /* VideoWaveVideoCell.swift in Sources */,
+				671487D929BE55F000B89CAF /* VideoWaveUDFViewController.swift in Sources */,
+				671487CF29BE508F00B89CAF /* Epic.swift in Sources */,
 				677170BA299BB43300C18CC9 /* AppDelegate.swift in Sources */,
-				677170BC299BB43300C18CC9 /* SceneDelegate.swift in Sources */,
+				677170EB299D382200C18CC9 /* VideoRepository.swift in Sources */,
+				677170E7299D36D800C18CC9 /* Weak.swift in Sources */,
+				671487D029BE508F00B89CAF /* Store.swift in Sources */,
+				677170E1299D1CF600C18CC9 /* Collection+Utils.swift in Sources */,
+				677170E9299D372000C18CC9 /* Locking.swift in Sources */,
+				671487D129BE508F00B89CAF /* Reducer.swift in Sources */,
+				671487D529BE511D00B89CAF /* VideoWaveReducer.swift in Sources */,
+				677170D8299BBA4C00C18CC9 /* VideoWaveLoadingCell.swift in Sources */,
+				677170E5299D366400C18CC9 /* WeakSequence.swift in Sources */,
+				671487DB29BE6C1900B89CAF /* VideoWavePlayerEpic.swift in Sources */,
+				671487D329BE508F00B89CAF /* EpicMiddleware.swift in Sources */,
+				677170DF299D1CDF00C18CC9 /* UITableView+Utils.swift in Sources */,
+				671487DD29BE6C3A00B89CAF /* VideoWavePreloadEpic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		677170BF299BB43300C18CC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				677170C0299BB43300C18CC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		677170C4299BB43500C18CC9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,8 +435,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoWave/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,8 +463,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoWave/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

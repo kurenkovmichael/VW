@@ -7,13 +7,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+
+
+class VideoWaveViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
+    let tableView = UITableView()
 
+}
+
+extension VideoWaveViewController: UITableViewDataSource {
+ 
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+}
+
+extension VideoWaveViewController: UITableViewDelegate {
+    
 }
 
